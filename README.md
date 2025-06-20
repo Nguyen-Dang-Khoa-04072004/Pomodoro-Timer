@@ -18,3 +18,6 @@ bun run dev
 ![focus](images/focus.png)
 ![shortbreak](images/shortbreak.png)
 ![longbreak](images/longbreak.png)
+
+# DEMO
+![video demo](https://github.com/user-attachments/assets/53edac44-f284-4f60-abfc-033e85550b8c)
