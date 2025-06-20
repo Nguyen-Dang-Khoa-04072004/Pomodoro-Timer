@@ -1,0 +1,89 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(37, 99, 161);
+  height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  gap:15px;
+  width: 500px;
+  height: 330px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.11);
+  padding: 25px 50px;
+  border-radius: 10px;
+}
+
+.button-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.controll-button {
+  color: white;
+  font-weight: 700;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 15px;
+  padding: 5px 15px;
+  background: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.timer {
+  font-size: 150px;
+  color: white;
+  font-family: "Chewy", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.start-button {
+  padding: 10px 70px;
+  border: none;
+  font-optical-sizing: auto;
+  font-family: "JetBrains Mono", monospace;
+  font-style: normal;
+  border-radius: 5px;
+  font-size: 25px;
+  font-weight: 800;
+  cursor: pointer;
+  border-bottom: 8px solid rgb(214, 213, 213);
+}
+
+.start-button:active {
+  border: none;
+}
+
+
+.info-wrapper{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: 'white'
+}
+
+.pomodoros-amount{
+    color:white;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 20px;
+    text-align: center;
+}
+
+.message{
+    color:white;
+    font-weight: 500;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 20px;
+    text-align: center;
+}
